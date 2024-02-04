@@ -1,0 +1,162 @@
+* {
+   /* background-color: #DEF4C6;*/
+}
+#main {
+    background-color: #DEF4C6;
+}
+
+#title {
+    font-family: sans-serif;
+    
+    width: 60vmax;
+    color: #1B512D;
+  }
+
+
+.center {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    
+  }
+
+#image {
+    max-width: 70%;
+    height: auto;
+    display: block;
+  }
+
+.book-list {
+    width: 100%;
+    height: 4em;
+    background-color: #B1CF5F;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #1B512D;
+}
+
+ul {
+    list-style-type: none;
+    background: #B1CF5F;
+}
+
+li {
+    flex-direction: column;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tribute-info {
+    padding: 50px;
+    background: #B1CF5F;
+}
+
+.book_cover {
+    margin: auto;
+    max-width: 150px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 250px;
+    height: 250px;
+    perspective: 1000px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+  
+  .flip-card-inner {
+    position: relative;
+    left: 340px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    padding-top: 65px;
+    background-color: #DEF4C6 ;
+    color: black;
+  }
+  
+  .flip-card-back {
+    padding: 50px;
+    background-color: #1B512D;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #1B512D;;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #DEF4C6;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  @media only screen and (min-width:480px)
+  {
+
+  }
+
+  @media only screen and (min-width:767px)
+  {
+
+  }
+
+  @media only screen and (min-width:991px)
+  {
+
+  }
+
+  @media only screen and (min-width:1200px)
+  {
+ .font {
+    padding: 0px 200px 15px 200px;
+        }
+  }
+
+  @media(orientation: landscape)
+  {
+
+  }
